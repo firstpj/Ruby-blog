@@ -51,14 +51,14 @@ RSpec.describe Post, type: :model do
       expect(post).to_not be_valid
     end
   end
-  
+
   describe 'custom methods in Post' do
     it 'increments user posts counter' do
       expect { post.send(:increment_user_posts_counter) }.to change { user.reload.posts_counter }.by(1)
     end
-  
+
     it 'checks most recent 5 comments' do
       expect(post.recent_comments).to eq(post.comments.order(created_at: :desc).limit(5))
     end
   end
- end
+end
