@@ -24,7 +24,7 @@ RSpec.describe Post, type: :model do
     it { is_expected.to have_many(:comments).dependent(:destroy) }
   end
 
-
+  describe 'validations' do
     it 'is valid with valid attributes' do
       post = Post.new(author: user, title: 'Post one', text: 'This is my firt post', likes_counter: 0,
                       comments_counter: 0)
