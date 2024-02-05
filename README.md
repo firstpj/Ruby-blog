@@ -132,7 +132,24 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Collins Akorda**
+
+- GitHub: [@firstpj](https://github.com/firstpj)
+- Twitter: [@AkordaC](https://twitter.com/AkordaC)
+- LinkedIn: [Collins Akorda](https://www.linkedin.com/in/collins-akorda-bb46b2232/)
+
+
+👤**Molnar Emese**
+
+GitHub: @Mesi21
+Twitter: @buksimesi21
+LinkedIn: [LinkedIn] (https://www.linkedin.com/in/emesemesimolnar/)
+
+
+**Aladdin Alsalem**
+
+GitHub:@AlaaAlsalem
+Linkedin:AladdinAlsalem
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
