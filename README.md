@@ -132,12 +132,11 @@ To run tests, run the following command:
 - GitHub: [@firstpj](https://github.com/firstpj)
 - Twitter: [@AkordaC](https://twitter.com/AkordaC)
 - LinkedIn: [Collins Akorda](https://www.linkedin.com/in/collins-akorda-bb46b2232/)
+👤 Molnar Emese
 
-👤 **Reem Mohammed**
-
-- GitHub: [@githubhandle](https://github.com/ReemMohamedAbdelfatah)
-- Twitter: [@twitterhandle](https://twitter.com/ReemMoh67016126)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/reemmuhammad)
+GitHub: @Mesi21
+Twitter: @buksimesi21
+LinkedIn: [LinkedIn] (https://www.linkedin.com/in/emesemesimolnar/)
 
 <!-- FUTURE FEATURES -->
 
