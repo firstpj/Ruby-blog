@@ -139,6 +139,13 @@ To run tests, run the following command:
 - LinkedIn: [Aladdin Alsalem](https://www.linkedin.com/in/aladdin-alsalem/)
 
 
+👤 **Molnar Emese**
+
+- GitHub: @Mesi21
+- Twitter: @buksimesi21
+- LinkedIn: [LinkedIn] (https://www.linkedin.com/in/emesemesimolnar/)
+
+
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
