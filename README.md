@@ -133,6 +133,11 @@ To run tests, run the following command:
 - Twitter: [@AkordaC](https://twitter.com/AkordaC)
 - LinkedIn: [Collins Akorda](https://www.linkedin.com/in/collins-akorda-bb46b2232/)
 
+👤 **Aladdin Alsalem**
+
+- GitHub: [@Aladdin](https://github.com/AlaaAlsalem)
+- LinkedIn: [Aladdin Alsalem](https://www.linkedin.com/in/aladdin-alsalem/)
+
 
 <!-- FUTURE FEATURES -->
 
