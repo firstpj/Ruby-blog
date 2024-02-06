@@ -143,14 +143,6 @@ To run tests, run the following command:
   - Twitter: [@buksimesi21](https://twitter.com/buksimesi21)  
   - LinkedIn: [LinkedIn] (https://www.linkedin.com/in/emesemesimolnar/)
 
-
-👤 **Molnar Emese**
-
-- GitHub: @Mesi21
-- Twitter: @buksimesi21
-- LinkedIn: [LinkedIn] (https://www.linkedin.com/in/emesemesimolnar/)
-
-
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
