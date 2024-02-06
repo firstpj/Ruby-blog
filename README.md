@@ -133,12 +133,6 @@ To run tests, run the following command:
 - Twitter: [@AkordaC](https://twitter.com/AkordaC)
 - LinkedIn: [Collins Akorda](https://www.linkedin.com/in/collins-akorda-bb46b2232/)
 
-👤 **Reem Mohammed**
-
-- GitHub: [@githubhandle](https://github.com/ReemMohamedAbdelfatah)
-- Twitter: [@twitterhandle](https://twitter.com/ReemMoh67016126)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/reemmuhammad)
-
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
