@@ -1,7 +1,5 @@
 class PostsController < ApplicationController
-  def index
-
-  end
+  def index; end
 
   def show
     @post = Post.includes(:author).find_by(author_id: params[:user_id], id: params[:id])
