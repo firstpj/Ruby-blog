@@ -25,7 +25,7 @@ h5 {
 }
 
 body {
-  background-color: #edefeb;
+  background-color: #f3f8ee;
 }
 
 .navbar {
@@ -42,7 +42,7 @@ body {
 .new_user {
   display: flex;
   flex-direction: column;
-  margin-bottom: 0.5em;
+  gap: 0.5em;
   text-align: center;
   justify-content: center;
   padding: 2em 0;
@@ -95,7 +95,7 @@ body {
 
 .card-text a {
   text-decoration: none;
-  color: #617073;
+  color: #f2f7f8;
 }
 
 .card-text a:hover {
@@ -129,11 +129,11 @@ body {
 
 .btn-view {
   color: #fff;
-  background-color: #dbd9cc;
+  background-color: #f8f7f2;
 }
 
 .btn-view:hover {
-  background-color: #99ccd6;
+  background-color: #eaf1f2;
 }
 
 .form-group {
@@ -154,7 +154,7 @@ body {
   flex-direction: column;
   border-radius: 20px;
   align-items: center;
-  background-color: #b8c6c9;
+  background-color: #f0f3f3;
   color: #dfdbdb;
 }
 
