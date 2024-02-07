@@ -42,7 +42,7 @@ body {
 .new_user {
   display: flex;
   flex-direction: column;
-  gap: 0.5em;
+  margin-bottom: 0.5em;
   text-align: center;
   justify-content: center;
   padding: 2em 0;
