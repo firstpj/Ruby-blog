@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+<<<<<<< HEAD
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable, :confirmable
   validates :name, presence: true
@@ -9,6 +10,8 @@ class User < ApplicationRecord
   has_many :likes, dependent: :destroy
 
   # validates :posts_counter, numericality: { greater_than_or_equal_to: 0 }
+=======
+>>>>>>> 68181703ed486838f21f155818b662f67c397438
 
   def most_recent_posts
     posts.order(created_at: :desc).limit(3)

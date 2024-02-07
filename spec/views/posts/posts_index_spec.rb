@@ -37,6 +37,7 @@ RSpec.describe 'posts', type: :feature do
     end
 
     it 'display latest comments on a post' do
+
       expect(page).not_to have_content('How to be a con artist')
     end
 
