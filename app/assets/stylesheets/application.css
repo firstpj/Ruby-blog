@@ -16,3 +16,149 @@
 
 @import "bootstrap";
 @import "rails_bootstrap_forms";
+
+p,
+h1,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: #edefeb;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.current_user_name_notice {
+  width: 100%;
+  color: #cee0d3;
+  text-align: end;
+  padding: 20px;
+}
+
+.new_user {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  text-align: center;
+  justify-content: center;
+  padding: 2em 0;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgb(243, 241, 239);
+  margin-top: 0em;
+}
+
+.all-users {
+  margin: 50px auto;
+  padding: 20px;
+  width: 60%;
+  background-color: #eef4f5;
+  border-radius: 40px;
+}
+
+.all-users h1 {
+  width: 70%;
+  padding: 80px;
+  text-align: center;
+  margin: 80px auto;
+  background-color: #ddd9d4;
+  border-radius: 40px;
+  color: #e4e0e0;
+}
+
+.card {
+  width: 100%;
+  margin: 5px auto;
+  background-color: #eee8e8;
+}
+
+.card-text,
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text {
+  align-items: flex-end;
+}
+
+.card-body {
+  margin: 10px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.card-text a {
+  text-decoration: none;
+  color: #617073;
+}
+
+.card-text a:hover {
+  color: #eeeae3;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.user-photo {
+  background-color: #ead7d7;
+}
+
+#lks,
+#statistics,
+#lks-posts {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new_post {
+  width: 50%;
+  margin: 5px auto;
+  height: 1vh;
+}
+
+#addPost {
+  width: 60%;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.btn-view {
+  color: #fff;
+  background-color: #dbd9cc;
+}
+
+.btn-view:hover {
+  background-color: #99ccd6;
+}
+
+.form-group {
+  margin: 200px auto;
+  padding: 200px;
+  color: #fff;
+  background-color: #d3d8da;
+  border-radius: 10px;
+}
+
+#sign-up-page,
+#login-page {
+  width: 60%;
+  margin: 10px auto;
+  padding: 50px 0;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  align-items: center;
+  background-color: #b8c6c9;
+  color: #dfdbdb;
+}
+
+#btn-login {
+  width: 100%;
+}
