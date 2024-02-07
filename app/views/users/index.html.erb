@@ -2,4 +2,8 @@
 <% @users.each do |user| %>
 <%= render 'shared/user', user:user %>
 <% end %>
+<div class="users">
+<% @users.each do |user| %>
+<%= render 'shared/user', user:user %>
+<% end %>
 </div>

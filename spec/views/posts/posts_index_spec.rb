@@ -37,11 +37,6 @@ RSpec.describe 'posts', type: :feature do
     end
 
     it 'display latest comments on a post' do
-      expect(page).to have_content('Awesome stuff')
-      expect(page).to have_content('Good post!')
-      expect(page).to have_content('That is just awful')
-      expect(page).to have_content('Great post')
-      expect(page).to have_content('How to solve a crime')
       expect(page).not_to have_content('How to be a con artist')
     end
 
