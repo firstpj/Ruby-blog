@@ -138,11 +138,6 @@ To run tests, run the following command:
 - GitHub: [@Aladdin](https://github.com/AlaaAlsalem)
 - LinkedIn: [Aladdin Alsalem](https://www.linkedin.com/in/aladdin-alsalem/)
 
-👤 **Molnar Emese**
-  - GitHub: [@Mesi21](https://github.com/Mesi21)
-  - Twitter: [@buksimesi21](https://twitter.com/buksimesi21)  
-  - LinkedIn: [LinkedIn] (https://www.linkedin.com/in/emesemesimolnar/)
-
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
