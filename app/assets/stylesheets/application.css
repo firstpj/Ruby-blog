@@ -14,169 +14,149 @@
  *= require_self
  */
 
-.users {
+@import "bootstrap";
+@import "rails_bootstrap_forms";
+
+p,
+h1,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f3f8ee;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.current_user_name_notice {
+  width: 100%;
+  color: #cee0d3;
+  text-align: end;
+  padding: 20px;
+}
+
+.new_user {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
-  align-items: center;
+  gap: 0.5em;
+  text-align: center;
   justify-content: center;
+  padding: 2em 0;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgb(243, 241, 239);
 }
 
-.users a {
-  text-decoration: none;
-  color: blue;
+.all-users {
+  margin: 50px auto;
+  padding: 20px;
+  width: 60%;
+  background-color: #eef4f5;
+  border-radius: 40px;
 }
 
-.posts a {
-  text-decoration: none;
-  color: rgb(51, 51, 53);
+.all-users h1 {
+  width: 70%;
+  padding: 80px;
+  text-align: center;
+  margin: 80px auto;
+  background-color: #ddd9d4;
+  border-radius: 40px;
+  color: #e4e0e0;
 }
 
-.users a:hover {
-  text-decoration: underline;
-  color: red;
+.card {
+  width: 100%;
+  margin: 5px auto;
+  background-color: #eee8e8;
 }
 
-.users a:visited {
-  color: rgb(40, 40, 41);
-}
-
-.user-container {
+.card-text,
+.card-body {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+}
+
+.card-text {
+  align-items: flex-end;
+}
+
+.card-body {
+  margin: 10px;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.card-text a {
+  text-decoration: none;
+  color: #f2f7f8;
+}
+
+.card-text a:hover {
+  color: #eeeae3;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.user-photo {
+  background-color: #ead7d7;
+}
+
+#lks,
+#statistics,
+#lks-posts {
   justify-content: space-between;
-  border: 2px solid #232222;
-  border-radius: 5px;
-  padding: 1rem;
-  height: 120px;
-  box-shadow: -3px 15px 5px -10px rgba(0, 0, 0, 0.67);
-  -webkit-box-shadow: -3px 15px 5px -10px rgba(0, 0, 0, 0.67);
-  -moz-box-shadow: -3px 15px 5px -10px rgba(0, 0, 0, 0.67);
-  width: 500px;
-  flex-direction: row;
+  align-items: center;
 }
 
-.user-name {
-  margin-left: 20px;
-  margin-top: 40px;
-  width: 300px;
-  text-align: justify;
-}
-
-.user-post {
-  margin-top: 110px;
-  margin-left: -100px;
-  border: 1px transparent;
-}
-
-.userpost-container {
-  display: flex;
-  gap: 50px;
-}
-
-.container-components {
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-}
-
-.img-container {
-  display: flex;
-  width: 100px;
-  margin-top: 20px;
-  height: 100px;
-  border: 2px solid #232222;
-  border-radius: 5px;
-  flex-direction: column;
-  gap: 10px;
-  justify-content: center;
-}
-
-.img-container img {
+.new_post {
   width: 50%;
-  height: 50%;
-  border-radius: 50%;
+  margin: 5px auto;
+  height: 1vh;
 }
 
-.show-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.8rem;
-}
-
-.posts {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  width: 100vw;
-  align-items: center;
-}
-
-.post {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  width: 500px;
-  height: 120px;
-  padding: 1rem;
-  border: 2px solid #232222;
-  justify-content: space-around;
+#addPost {
+  width: 60%;
+  margin: 10px auto;
   border-radius: 5px;
-  box-shadow: -3px 15px 5px -10px rgba(0, 0, 0, 0.67);
 }
 
-.interactions {
-  display: flex;
-  gap: 1rem;
-  width: 100%;
-  justify-content: right;
+.btn-view {
+  color: #fff;
+  background-color: #f8f7f2;
 }
 
-.post-title {
-  display: flex;
-  width: 100%;
-  justify-content: left;
+.btn-view:hover {
+  background-color: #eaf1f2;
 }
 
-.comments {
+.form-group {
+  margin: 200px auto;
+  padding: 200px;
+  color: #fff;
+  background-color: #d3d8da;
+  border-radius: 10px;
+}
+
+#sign-up-page,
+#login-page {
+  width: 60%;
+  margin: 10px auto;
+  padding: 50px 0;
+  height: 50vh;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  border: 1px solid #232222;
-  padding: 1rem;
-  width: 500px;
-}
-
-.posts-show {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  border-radius: 20px;
   align-items: center;
-  width: 100vw;
+  background-color: #f0f3f3;
+  color: #dfdbdb;
 }
 
-.post-show {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  width: 500px;
-  padding: 1rem;
-  border: 2px solid #232222;
-}
-
-.post-title-show {
-  display: flex;
+#btn-login {
   width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: -30px;
-}
-
-.post-interact {
-  display: flex;
-  gap: 1rem;
-  justify-content: right;
-  margin-top: -10px;
 }
